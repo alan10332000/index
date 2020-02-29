@@ -1,7 +1,7 @@
 
 :root {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: 'Noto Sans TC', Tahoma, Geneva, Verdana, sans-serif;
+    color:#707070;
 }
 
 .main-container {
@@ -45,7 +45,7 @@
     padding:16px;
 }
 .title {
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 0.3em;
     color: #2082A7;
     font-size:1.5em;
@@ -80,6 +80,7 @@
 }
 
 .r-el {
+    
     padding-left: 16px;
     text-align: left;
 }
@@ -91,6 +92,9 @@ a .r-el {
 .portfolio {
     background-color:white;
     padding: 8px 0px;
+    /* display:flex; */
+    /* flex-flow:column; */
+    clear:both;
 }
 
 @media only sreen and (max-width: 899px) {
@@ -110,6 +114,7 @@ a .r-el {
         width:45%;
         margin:16px 16px;
         float: left;
+        
         
     }
 }
@@ -131,8 +136,16 @@ a .r-el {
 
 .work-title {
     color:#2082A7;
-    font-weight:800;
+    font-weight:700;
     font-size:0.875em;
     letter-spacing: 0.05em;
+    line-height: 1.5;
+
+}
+
+small {
+    color:#9C9C9C;
+    font-weight:350;
+    font-size:0.75em;
 
 }
