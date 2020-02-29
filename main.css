@@ -1,0 +1,138 @@
+
+:root {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main-container {
+    margin: 0 12%;
+}
+.cover {
+    background-color: #F7FCFB;
+    height:300px;
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10%;
+    
+}
+
+.sticker {
+    width:45%;
+    display:flex;
+    
+}
+
+
+.intro {
+    flex: 1 1 55%;
+    padding-left: 4em;
+    
+}
+.me {
+    width:100%;
+    max-width: 250px;
+    padding:16px;
+    /* min-height: 200px; */
+    justify-self: flex-end;
+    /* align-content: center; */
+
+}
+
+.experience {
+    background-color:white;
+    padding:16px;
+}
+.title {
+    font-weight: 800;
+    letter-spacing: 0.3em;
+    color: #2082A7;
+    font-size:1.5em;
+    text-align: center;
+
+} 
+.table-container {
+    display:flex;
+    padding: 0 16px;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-flow: column;
+    
+} 
+.table-block {
+    display:flex;
+    flex-flow:row;
+    width: 100%;
+    margin:8px 16px;
+
+}
+
+.des-block {
+    display:flex;
+    flex: 1 1 60%;
+    flex-flow:column;
+}
+.l-el {
+    flex: 1 1 40%;
+    text-align: right;
+
+}
+
+.r-el {
+    padding-left: 16px;
+    text-align: left;
+}
+
+a .r-el {
+    font-weight: 800;
+
+}
+.portfolio {
+    background-color:white;
+    padding: 8px 0px;
+}
+
+@media only sreen and (max-width: 899px) {
+    .float-wrapper {
+    
+        display:flex;
+        flex-flow:column;
+        align-items: center;
+        width:100%;
+        margin:16px 8px;
+    }
+}
+@media only screen and (min-width:900px) {
+    .float-wrapper {
+    
+        display:block;
+        width:45%;
+        margin:16px 16px;
+        float: left;
+        
+    }
+}
+
+
+
+.theme-img {
+    width:100%;
+    /* padding:0 32px; */
+}
+
+.work-block {
+    margin-top:8px;
+    display:flex;
+    flex-flow:row;
+    flex-wrap: nowrap;
+    justify-content: space-between 
+}
+
+.work-title {
+    color:#2082A7;
+    font-weight:800;
+    font-size:0.875em;
+    letter-spacing: 0.05em;
+
+}
