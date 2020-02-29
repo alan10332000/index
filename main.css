@@ -125,6 +125,11 @@ a .r-el {
     width:100%;
     /* padding:0 32px; */
 }
+.theme-img:hover {
+    opacity: 60%;
+    transition: 0.2s;
+
+}
 
 .work-block {
     margin-top:8px;
